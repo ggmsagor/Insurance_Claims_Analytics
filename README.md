@@ -68,40 +68,6 @@ The insurance transactions table acts as the fact table. Employee and vendor dat
 
 ---
 
-## Repository Structure
-
-```
-insurance-claims-analytics/
-│
-├── data/
-│   ├── employee_data.xlsx          ← Raw agent/employee data
-│   ├── insurance_data.xlsx         ← Raw policy and claims transactions
-│   └── vendor_data.xlsx            ← Raw vendor master data
-│
-├── analysis/
-│   └── Insurance_Claims_Analytics.xlsx   ← Full analyzed workbook (10 sheets)
-│
-├── powerbi/
-│   └── Insurance_Dashboard.pbix    ← Power BI dashboard file
-│
-├── screenshots/
-│   ├── 01_KPI_Dashboard.png
-│   ├── 02_Monthly_Trend.png
-│   ├── 03_Insurance_Type_Analysis.png
-│   ├── 04_State_Analysis.png
-│   ├── 05_Risk_Fraud_Analysis.png
-│   ├── 06_Agent_Performance.png
-│   └── 07_Customer_Demographics.png
-│
-├── docs/
-│   ├── PowerBI_Build_Guide.md      ← Step-by-step Power BI setup
-│   └── Analysis_Notes.md           ← Observations and methodology
-│
-└── README.md
-```
-
----
-
 ## Excel Workbook Structure
 
 The analyzed Excel file (`Insurance_Claims_Analytics.xlsx`) contains 10 sheets:
