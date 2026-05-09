@@ -127,17 +127,6 @@ For setup instructions, see [`docs/PowerBI_Build_Guide.md`](docs/PowerBI_Build_G
 
 ---
 
-## How to Use
-
-1. Clone or download the repository
-2. Open `data/` folder and review the three raw source files
-3. Open `analysis/Insurance_Claims_Analytics.xlsx` for the full annotated analysis
-4. Open `powerbi/Insurance_Dashboard.pbix` in Power BI Desktop (free download from Microsoft)
-   - When prompted, update the data source path to point to your local `analysis/` folder
-5. Refer to `docs/PowerBI_Build_Guide.md` if you want to rebuild the dashboard from scratch
-
----
-
 ## Tools & Skills Demonstrated
 
 - **Data cleaning** — handling blanks, standardizing codes (A/D, H/M/L, Y/N), date formatting
